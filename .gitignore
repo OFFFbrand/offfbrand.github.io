@@ -1,0 +1,8 @@
+## OS X temporary files
+.DS_Store
+.Trashes
+*.swp
+
+_site
+.sass-cache
+.jekyll-metadata

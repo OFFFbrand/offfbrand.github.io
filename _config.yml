@@ -1,0 +1,47 @@
+title:              Offfbrand
+
+# Versioning
+current_version: 1.5.0
+foundation_version: 6.0.0
+
+author:
+  name:             username
+  email:            user@domain.com
+  github:           username
+  twitter:          username
+
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+baseurl:            ""
+url:                http://offfbrand.com
+
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
+
+## CUSTOM VARS
+
+name:               OFFFBRAND
+description :       OFFFBRAND
+copyright:          Copyright (c) 2016
+#email:         site@domain.com
+#phone:         (555) 555-1234
+
+
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          ./assets/stylesheets
+  style:            :compressed
