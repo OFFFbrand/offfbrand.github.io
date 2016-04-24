@@ -4,3 +4,35 @@
 body {
   padding-top: rem-calc(20);
 }
+
+.prelaunch-logo {
+  margin-bottom: rem-calc(24);
+}
+
+@mixin prelaunch-text {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@mixin prelaunch-text-large {
+  @include prelaunch-text;
+  font-size: rem-calc(42);
+}
+
+.prelaunch-text {
+  @include prelaunch-text;
+  font-size: rem-calc(18);
+}
+
+.prelaunch-text-large-1 {
+  @include prelaunch-text-large;
+}
+
+.prelaunch-text-large-2 {
+  @include prelaunch-text-large;
+  margin-bottom: rem-calc(52);
+}
+
+.prelaunch-text-large-3 {
+  @include prelaunch-text-large;
+}
