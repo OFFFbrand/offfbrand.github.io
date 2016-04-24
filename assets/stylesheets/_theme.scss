@@ -36,3 +36,22 @@ body {
 .prelaunch-text-large-3 {
   @include prelaunch-text-large;
 }
+
+.email-submit-button {
+  font-weight: 600;
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: rem-calc(26 0 26 0);
+	opacity: 1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	overflow: hidden;
+	background: rgba($dark-dark-gray, 0.9);
+	z-index: 5;
+}
