@@ -1,14 +1,12 @@
-title:              Offfbrand
+title:              OFFFBRAND
 
 # Versioning
 current_version: 1.5.0
 foundation_version: 6.0.0
 
 author:
-  name:             username
+  name:             Michael Fan
   email:            user@domain.com
-  github:           username
-  twitter:          username
 
 # Dependencies
 markdown:           kramdown
@@ -33,10 +31,8 @@ exclude:            [
 ## CUSTOM VARS
 
 name:               OFFFBRAND
-description :       OFFFBRAND
+description :       OFFFBRAND Clothing Shop
 copyright:          Copyright (c) 2016
-#email:         site@domain.com
-#phone:         (555) 555-1234
 
 
 
